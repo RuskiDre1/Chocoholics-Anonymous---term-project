@@ -1,0 +1,8 @@
+choc-an
+*.o
+DATA.db
+
+# ignore test binaries but not sources
+tests/*
+!tests/*.cpp
+!tests/*.h
